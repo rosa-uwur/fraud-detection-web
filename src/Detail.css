@@ -1,0 +1,73 @@
+/* Estilos para la tabla */
+
+.contentTable{
+    margin-top: 20px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: small;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #003865;
+    color: white;
+}
+
+tr {
+    color: #003865;
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(odd) {
+    background-color: #EAEAEA;
+}
+
+/* Estilos para las filas impares */
+tr:nth-child(even) {
+    background-color: #F9F9F9;
+}
+
+
+/* Estilos para las filas al pasar el ratÃ³n */
+tr:hover {
+    background-color: #c0c0c0;
+}
+
+
+/* Detail.css */
+
+.select-container {
+    margin-bottom: 10px;
+    display: flex ;
+    justify-content: center;
+}
+
+.select-container select,
+.select-container input,
+.select-container button {
+    font-size: 16px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.select-container button {
+    padding: 5px 10px;
+    background-color: rgb(0,193,212);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.select-container button:hover {
+    background-color: #2C8B9E;
+}
