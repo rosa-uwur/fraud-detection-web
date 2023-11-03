@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rosamv.github.io/fraud-detection-Analyze",
+  "homepage": "https://rosa-uwur.github.io/fraud-detection-web/",
 
   "scripts": {
     "dev": "vite",
